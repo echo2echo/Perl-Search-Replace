@@ -6,7 +6,7 @@ The find command is set to work with file "testMeFirst.html" for testing. Change
 
 You may need to adjust permissions of this script, the "testMeFirst.html" file or your own file(s) for this script to run... 
 
-   $ sudo chmod 755 search_replace.pl
+      $ sudo chmod 755 search_replace.pl
 
 if $command is set to find "*.html" the find command will get a list of all files ending in "html"  excluding those without permission.
 
