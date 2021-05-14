@@ -17,3 +17,7 @@ If you wish to see error messages displayed remove 2/dev/null and grep -v "Permi
 Change the $replace variable with the text you wish to replace... such as a spelling error.
 
 Change the $replace_with variable with the text you would like to replace... such as a corrected spelling.
+
+To run the script...
+            
+     $ search_replace.pl
