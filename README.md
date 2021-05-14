@@ -20,4 +20,4 @@ Change the $replace_with variable with the text you would like to replace... suc
 
 To run the script...
             
-     $ search_replace.pl
+     $ ./search_replace.pl
