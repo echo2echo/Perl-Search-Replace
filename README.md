@@ -2,7 +2,7 @@
 
 Be careful with this script, especially with special characters
 
-The find command is set to work with file "testMeFirst.html" for testing. Change filename to the file(s) you are testing.
+The find command is set to work with file "testMeFirst.html" for testing. Change filenames to the file(s) when you are done testing.
 
 You may need to adjust permissions of this script, the "testMeFirst.html" file or your own file(s) for this script to run... 
 
