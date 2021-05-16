@@ -2,11 +2,15 @@
 
 Be careful with this script, especially with special characters
 
-The find command is set to work with file "testMeFirst.html" for testing. Change filenames to the file(s) when you are done testing.
+The find command is originally set to work with file "testMeFirst.html" for testing. Change filenames to your file(s) when you are done testing.
 
 You may need to adjust permissions of this script, the "testMeFirst.html" file or your own file(s) for this script to run... 
 
       $ sudo chmod 755 search_replace.pl
+
+Or permissions to file(s) to be altered
+
+      $ chmod 644 testMeFirst.html
 
 if $command is set to find "*.html" the find command will get a list of all files ending in "html"  excluding those without permission.
 
