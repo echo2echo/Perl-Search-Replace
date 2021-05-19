@@ -16,8 +16,6 @@ if $command is set to find "*.html" the find command will get a list of all file
 
 This script will skip updating files without permission ( grep -v "Permission denied" )
 
-If you wish to see error messages displayed remove 2/dev/null and grep -v "Permission denied" ) from the $command/find line
-
 Change the $replace variable with the text you wish to replace... such as a spelling error.
 
 Change the $replace_with variable with the text you would like to replace... such as a corrected spelling.
