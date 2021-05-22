@@ -8,10 +8,6 @@ You may need to adjust permissions of this script, the "testMeFirst.html" file o
 
       $ sudo chmod 755 search_replace.pl
 
-Or permissions to file(s) to be altered
-
-      $ chmod 644 testMeFirst.html
-
 if $command is set to find "*.html" the find command will get a list of all files ending in "html"  excluding those without permission.
 
 This script will skip updating files without permission ( grep -v "Permission denied" )
