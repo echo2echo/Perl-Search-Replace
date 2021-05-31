@@ -4,7 +4,7 @@
 # Perl Script to Find and Replace Text Across Multiple Files and Directories
 # By Joel Rader  info[at]joelrader[dot]net
 
-# This script is very simple but is very powerful.  Be careful.
+# This script is very simple but is very powerful.
 # Backup files to be affected before running this script
 # This script is sensitive to special characters in the $replace and $replace_with variables
 
