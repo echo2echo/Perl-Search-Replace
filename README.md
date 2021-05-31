@@ -8,7 +8,7 @@ You may need to adjust permissions of this script, the "testMeFirst.html" file o
 
       $ sudo chmod 755 search_replace.pl
 
-if $command is set to find "*.html" the find command will get a list of all files ending in "html"  excluding those without permission.
+if $command is set to find "*.html" the find command will execute on all files ending in "html"  excluding those without permission.
 
 This script will skip updating files without permission ( grep -v "Permission denied" )
 
