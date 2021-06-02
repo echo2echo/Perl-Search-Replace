@@ -21,7 +21,7 @@ my $count = 0;
 # The find command will get a list of all files ending in "html" if $command is set to find "*.html" excluding those without permission.
 # This script will skip updating files without permission ( grep -v "Permission denied" below )
 
-my $command = 'find . -name "testMeFirst.html" 2>&1 | grep -v "Permission denied"';
+my $command = 'find . -name "testMeFirst.html"';
 my @output = `$command`;
 
 foreach(@output)
