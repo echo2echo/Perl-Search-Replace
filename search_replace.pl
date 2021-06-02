@@ -41,12 +41,12 @@ foreach(@output)
         my $replace_with = "misspelled word";
 
 	if($lines =~ s/$replace/$replace_with/g)
-	{
-		print "$file";	
+	{	
 		open(NEWFILE, ">$file") or die "Can\'t open $_\n";
 		print NEWFILE $lines;
 		close(NEWFILE);
 		$count += 1;
+		print "$file";
 	}
 }
 
