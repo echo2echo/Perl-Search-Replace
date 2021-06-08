@@ -10,7 +10,7 @@ You may need to adjust permissions of this script, the "testMeFirst.html" file o
 
       $ sudo chmod 755 search_replace.pl
 
-if $command is set to find "*.html" the find command will execute on all files ending in "html"  excluding those without permission.
+if $command is set to find "*.html" the command will execute on all files ending in "html"  excluding those without permission.
 
 Change the $replace variable with the text you wish to replace... such as a spelling error.
 
