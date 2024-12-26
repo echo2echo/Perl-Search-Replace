@@ -18,7 +18,7 @@ my $count = 0;
 
 # find command below is now set to work with file "testMeFirst.html" for testing. Change filename to the file you are testing.
 # You may need to adjust permissions of this script, the "testMeFirst.html" file or your own file(s) for this script to run... 
-# The find command will get a list of all files ending in "html" if $command is set to find "*.html" excluding those without permission. You could also set $command to do a find "*.*htm*" to include .htm, .shtml and .html files.
+# The find command will get a list of all files ending in "html" if $command is set to find "*.html" excluding those without permission. You could also set $command to do a find . -name  "*.*htm*" to include .htm, .shtml and .html files.
 # This script will skip updating files without permission
 
 my $command = 'find . -name "testMeFirst.html"';
