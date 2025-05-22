@@ -1,7 +1,7 @@
-#!/usr/bin/env perl
+u#!/usr/bin/env perl
 
 # File name: search_replace.pl
-# Perl Script to Find and Replace Text Across Multiple Files and Directories
+# Perl Script to Find and Replace Text Across Multiple Files and Sub Directories
 # By Joel Rader  info[at]joelrader[dot]net
 
 # This script is sensitive to special characters in the $replace and $replace_with variables, Careful.
