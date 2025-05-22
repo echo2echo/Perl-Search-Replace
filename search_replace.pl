@@ -1,4 +1,4 @@
-uu#!/usr/bin/env perl
+#!/usr/bin/env perl
 
 # File name: search_replace.pl
 # Perl Script to Find and Replace Text Across Multiple Files and Sub Directories
