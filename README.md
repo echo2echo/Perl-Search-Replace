@@ -2,11 +2,11 @@
 
 This script can be used to find and replace text for a single file or an entire website.
 
-Be careful with this script, especially with special characters
+Be careful with this script when using special characters
 
-The find command is originally set to work with file "testMeFirst.html" for testing. Change filenames to your file(s) when you are done testing.
+The find command is originally set to work with file "testMeFirst.html" for testing.
 
-You may need to adjust permissions of this script, the "testMeFirst.html" file or your own file(s) for this script to run... 
+You may need to adjust permissions of this script, the "testMeFirst.html" file or your own file(s) for this script to run.
 
       $ sudo chmod 755 search_replace.pl
 
