@@ -2,7 +2,7 @@
 
 This script can be used to find and replace text for a single file or an entire website.
 
-Be careful with this script when using special characters
+Be careful with this script when using special characters. I would do a backup before running this script.
 
 The find command is originally set to work with file "testMeFirst.html" for testing.
 
