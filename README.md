@@ -20,7 +20,6 @@ To run the script...
             
      $ ./search_replace.pl
 
-Or use a perl one liner... * Wildcards (*.html) also functional with filename(s) to run replace. I will update the README when this one liner works on sub directories 
-Try with testMeFirst.html to test 
+Or use a perl one liner... * Wildcards (*.html) also functional with filename(s). I will update the README when this one liner works on sub directories. 
 
       $ perl -pi -e 's/mispeled/misspelled/g' testMeFirst.html
