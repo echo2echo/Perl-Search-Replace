@@ -22,4 +22,4 @@ To run the script...
 
 Or use a perl one liner... * Wildcards (*.html) also functional with filename(s) to run replace. I will update the README when this one liner works on sub directories 
 
-      $ perl -pi -e 's/mispeled/misspelled/g' search_replace.html
+      $ perl -pi -e 's/mispeled/misspelled/g' testMeFirst.html
