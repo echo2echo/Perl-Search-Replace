@@ -1,4 +1,4 @@
-# Perl-Search-Replace
+u# Perl-Search-Replace
 
 This script and oneliner (see bottom) can be used to find and replace text in a single file or an entire website.
 
@@ -6,7 +6,7 @@ Be careful with this script when using special characters. I would do a backup b
 
 The find command is originally set to work with file "testMeFirst.html" for testing.
 
-You may need to adjust permissions of this script, the "testMeFirst.html" file or your own file(s) for this script to run.
+You may need to adjust permissions of this script, the "testMeFirst.html" file, or your own file(s) for this script to run.
 
       $ sudo chmod 755 search_replace.pl
 
