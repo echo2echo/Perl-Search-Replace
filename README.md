@@ -1,6 +1,6 @@
 # Perl-Search-Replace
 
-This script and oneliner (see bottom) ;can be used to find and replace text in a single file or an entire website.
+This script and oneliner (see bottom) can be used to find and replace text in a single file or an entire website.
 
 Be careful with this script when using special characters. I would do a backup before running this script.
 
