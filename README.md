@@ -1,4 +1,4 @@
-iiiiiii# Perl-Search-Replace
+# Perl-Search-Replace
 
 This script, and one liner, can be used to find and replace text in a single file or an entire website.
 
