@@ -20,7 +20,7 @@ To run the script...
             
      $ ./search_replace.pl
 
-Also, here is a perl one liner with basically the same functionality as search_replace.pl. It works in the current directory and all sub directories.
+Also, here is a perl one liner with basically the same functionality as search_replace.pl. It also works in the current directory and all sub directories.
 
 Be careful out there!
      
