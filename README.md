@@ -20,7 +20,7 @@ To run the script...
             
      $ ./search_replace.pl
 
-Also, here is a perl one liner with basically the same functionality as search_replace.pl. It works in current directory and all sub directories. The command below replaces text on all html files (*.html) 
+Also, here is a perl one liner with basically the same functionality as search_replace.pl. It works in the current directory and all sub directories. The command below replaces text on all html files (*.html) 
 
 Be careful out there!
      
