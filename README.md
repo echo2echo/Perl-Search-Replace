@@ -20,7 +20,7 @@ To run the script...
             
      $ ./search_replace.pl
 
-Also, here is a perl one liner with basically the same functionality as search_replace.pl. It works in current directory and all sub directories. The command below repl aces text on all h tml files (*.html) 
+Also, here is a perl one liner with basically the same functionality as search_replace.pl. It works in current directory and all sub directories. The command below repl aces text on all html files (*.html) 
 Be careful out there!
      
       $ perl -p -i -e 's/mispeled/misspelled/g' `find ./ -name "*.html"`
