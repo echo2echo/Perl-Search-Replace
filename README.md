@@ -20,8 +20,9 @@ To run the script...
             
      $ ./search_replace.pl
 
-Also, here is a perl one liner with basically the same functionality as search_replace.pl. It works in the current directory and all sub directories. The command below replaces text on all html files (*.html) 
+Also, here is a perl one liner with basically the same functionality as search_replace.pl. It works in the current directory and all sub directories. 
+The command below replaces text on .html, .htm and .shtml files (*.*htm*) 
 
 Be careful out there!
      
-      $ perl -p -i -e 's/mispeled/misspelled/g' `find ./ -name "*.html"`
+      $ perl -p -i -e 's/mispeled/misspelled/g' `find ./ -name "*.*htm*"`
