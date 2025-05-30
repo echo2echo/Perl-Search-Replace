@@ -1,6 +1,6 @@
 # Perl-Search-Replace
 
-This script can be used to find and replace text in a single file or an entire website.
+This script, and one liner, can be used to find and replace text in a single file or an entire website.
 
 Be careful with this script when using special characters. I would do a backup before running this script.
 
@@ -19,3 +19,8 @@ Change the $replace_with variable with the text you would like to overwrite the 
 To run the script...
             
      $ ./search_replace.pl
+
+Also, here is a perl one liner with basically the same functionality as search_replace.pl. Works in current directory and all sub directories
+Be careful out there!
+     
+      $ perl -p -i -e 's/mispeled/misspelled/g' `find ./ -name "*.html"`
