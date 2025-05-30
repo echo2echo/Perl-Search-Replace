@@ -12,7 +12,7 @@ You may need to adjust permissions of this script, the "testMeFirst.html" file, 
 
 if $command is set to find "*.html" the command will execute on all files ending in "html"  excluding those without permission.
 
-Change the $replace variable with the text you wish to replace... such as a spelling error.
+Change the $replace variable to the text you wish to replace... such as a spelling error.
 
 Change the $replace_with variable with the text you would like to overwrite the $replace variable... such as a corrected spelling.
 
