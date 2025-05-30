@@ -20,7 +20,7 @@ To run the script...
             
      $ ./search_replace.pl
 
-Also, Here is a perl oneliner with the same basic working functionality as the search_replace.pl script for use here with all html files (*.html). Works in current directory and sub directories
+Also, Here is a perl oneliner with the same basic working functionality as the search_replace.pl script for use here with all html files (*.html). Works in current directory and sub directories.
 Careful out there!  Things can break when running this one liner
 
       $ perl -p -i -e 's/mispeled/misspelled/g' `find ./ -name *.html`
