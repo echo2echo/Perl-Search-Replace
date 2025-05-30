@@ -1,4 +1,4 @@
-# Perl-Search-Replace
+iiiiiii# Perl-Search-Replace
 
 This script, and one liner, can be used to find and replace text in a single file or an entire website.
 
@@ -21,7 +21,7 @@ To run the script...
      $ ./search_replace.pl
 
 Also, here is a perl one liner with basically the same functionality as search_replace.pl. It works in the current directory and all sub directories. 
-The command below replaces text on .html, .htm and .shtml files (*.*htm*) 
+The command below replaces text on .html, .htm and .shtml files ( "*.*htm*" )
 
 Be careful out there!
      
