@@ -8,7 +8,7 @@ The find command is originally set to work with file "testMeFirst.html" for test
 
 You may need to adjust permissions of this script, the "testMeFirst.html" file, or your own file(s) for this script to run.
 
-      $ sudo chmod 755 search_replace.pl
+      sudo chmod 755 search_replace.pl
 
 if $command is set to find "*.html" the command will execute on all files ending in "html"  excluding those without permission.
 
@@ -18,10 +18,10 @@ Change the $replace_with variable with the text you would like to overwrite the 
 
 To run the script...
             
-     $ ./search_replace.pl
+     ./search_replace.pl
 
 Also, here is a perl one liner with basically the same functionality as search_replace.pl. It also works in the current directory and all sub directories.
      
-      $ perl -p -i -e 's/mispeled/misspelled/g' `find ./ -name "*.html"`
+      perl -p -i -e 's/mispeled/misspelled/g' `find ./ -name "*.html"`
 
 Be careful out there!
